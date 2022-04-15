@@ -35,7 +35,8 @@ loop do
         grid_hz:            body[:grid_hz],
         handle_temp_c:      body[:handle_temp_c],
         mcu_temp_c:         body[:mcu_temp_c],
-        pcba_temp_c:        body[:pcba_temp_c]
+        pcba_temp_c:        body[:pcba_temp_c],
+        energy_wh:          body[:session_energy_wh]
       }
     }
 
